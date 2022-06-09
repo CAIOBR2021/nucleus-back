@@ -1,0 +1,39 @@
+{
+   "name": "nucleus-api",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "engines": {
+      "node": "16.13.2",
+      "npm": "8.1.2"
+    },
+   "devDependencies": {
+      "@types/bcrypt": "^5.0.0",
+      "@types/express": "^4.17.13",
+      "@types/node": "^8.0.29",
+      "nodemon": "^2.0.16",
+      "ts-node": "3.3.0",
+      "typescript": "3.3.3333"
+   },
+   "author": "Marcos Felix",
+   "license": "MIT",
+   "dependencies": {
+      "@types/cors": "^2.8.12",
+      "@types/jsonwebtoken": "^8.5.8",
+      "bcrypt": "^5.0.1",
+      "body-parser": "^1.18.1",
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.1",
+      "express": "^4.15.4",
+      "jsonwebtoken": "^8.5.1",
+      "mysql": "^2.14.1",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "0.2.24"
+   },
+   "scripts": {
+      "start": "node build/index.js",
+      "postinstall": "tsc"    
+     
+   }
+
+  
+}
